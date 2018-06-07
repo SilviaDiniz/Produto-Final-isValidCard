@@ -8,7 +8,7 @@ do {
   }
   nCard.reverse();
 }
-while (nCard.length < 10);
+while (nCard.length < 10 && nCard.length !== 'number');
 function isValidCard(creditCard) {
   var total = 0,
       result = 0,
