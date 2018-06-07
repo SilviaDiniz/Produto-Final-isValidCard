@@ -17,5 +17,7 @@ README
 
 -> Para verificar se o cartão é válido, pega-se o resultado da soma total dos valores e aplica-se: (% 10 == 0);
 
--> Caso o valor seja diferente( % 10! == 0 ), o cartão será inválido.
-# Produto-Final-isValidCard
+-> Caso o valor seja diferente( % 10 !== 0 ), o cartão será inválido.
+
+-> Foram criadas pastas para alocar cada arquivo correspondente à sua extenção: js/app.js; css/style.css; image/fluxo-CartaoCredito.jpg;
+
