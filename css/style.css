@@ -1,0 +1,30 @@
+h3{
+  font-family: sans-serif;
+  font-size: 20px;
+
+  text-align: center;
+  text-decoration: underline;
+}
+p{
+  font-family: arial;
+  font-size: 15px;
+  color: #666;
+}
+
+/* header */
+.header{
+  width: 95vw;
+  height: auto;
+  margin: 10px;
+}
+/* respostas p*/
+
+#valido{
+  text-align: left;
+}
+#invalido{
+  text-align: left;
+}
+#button{
+  
+}
