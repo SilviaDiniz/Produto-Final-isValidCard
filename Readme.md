@@ -1,4 +1,5 @@
 README
+
 -> Usuário digita um número de cartão por meio de um prompt();
 
 -> Transforma uma string em array usando (array.push()), após será convertido para inteiro usando (paresInt());
@@ -21,3 +22,4 @@ README
 
 -> Foram criadas pastas para alocar cada arquivo correspondente à sua extenção: js/app.js; css/style.css; image/fluxo-CartaoCredito.jpg;
 
+# Produto-Final-isValidCard
