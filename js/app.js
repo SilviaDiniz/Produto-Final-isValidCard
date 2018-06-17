@@ -9,24 +9,22 @@ do {
   nCard.reverse();
 }
 while (nCard.length < 10 && nCard.length !== 'number');
-function isValidCard(creditCard) {
+function isValidCard(creditCard) { 
   var total = 0,
       result = 0,
-      subTotal = 0;
-  var position = 1;
-  for (var x = 0; x < nCard.length; x++) {
-    if (position == 2) {
-      subTotal = nCard[x] * 2;
-      if (subTotal > 9) {
-        subTotal = subTotal - 9;
+      subTotal = 0;   
+ for (var x = 0; x < nCard.length; x++) {  
+    if(x % 2 !== 0){
+      subTotal = nCard[x] * 2;  
+      if(subTotal > 9){
+         subTotal -= 9;                
       }
-      total = total + subTotal;
-      position = 1;
+      total = total + subTotal; 
     } else {
-      position ++;
-      total = total + nCard[x];
-      result = total % 10;
+      nCard[x];                     
+      total += nCard[x];     
     }
+    result = total % 10;            
   }
   if (result == 0) {
       document.getElementById('valido').innerHTML = ('O cartão de número ' + creditCard + ' é valido');
